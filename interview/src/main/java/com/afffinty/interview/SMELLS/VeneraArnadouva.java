@@ -1,3 +1,5 @@
+package main.java.com.afffinty.interview.SMELLS;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
