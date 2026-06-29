@@ -1,4 +1,4 @@
-package main.java.com.afffinty.interview.EXERCISES;
+package com.afffinty.interview.EXERCISES;
 
 import main.java.com.afffinty.interview.EXERCISES.RESULTS.Tuple;
 
