@@ -75,6 +75,7 @@
   How would you implement a thread-safe Singleton in Java?
   How do you go about creating modules in Java?
   Downsides of using Lombok
+  JVM Pipeline: source code -> ... > loading > verification > initialization > execution
 
 
 ## Agnostic
