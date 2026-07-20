@@ -73,6 +73,7 @@
   What is serialVersionUID, and why is it important?
   Explain compile-time polymorphism and runtime polymorphism.
   How would you implement a thread-safe Singleton in Java?
+  How do you go about creating modules in Java?
 
 
 ## Agnostic
