@@ -198,6 +198,220 @@ Describe a concurrency issue you faced in production and how you resolved it.
 What are some common best practices for writing concurrent applications?
 
 
+## Maven
+Basic to Intermediate
+What is Maven, and what problems does it solve in Java development?
+Explain the structure of a pom.xml file.
+What are the three standard Maven lifecycles?
+What is the difference between mvn clean, mvn install, and mvn deploy?
+What is the purpose of the Maven Super POM?
+Explain the Maven project directory structure.
+What is the difference between Maven coordinates: groupId, artifactId, and version?
+How does Maven resolve project dependencies?
+What is the difference between transitive dependencies and direct dependencies?
+How do you exclude a transitive dependency?
+Dependency Management
+Explain the purpose of the <dependencyManagement> section.
+What is the difference between <dependencies> and <dependencyManagement>?
+What are the different Maven dependency scopes (compile, provided, runtime, test, system, import)?
+What happens if two dependencies bring different versions of the same library?
+How does Maven's "nearest definition" strategy work for dependency resolution?
+How do you identify dependency conflicts in a Maven project?
+What is the purpose of the Maven local repository, central repository, and remote repositories?
+How can you force Maven to update dependencies from remote repositories?
+Build Lifecycle & Plugins
+Explain the Maven build lifecycle phases in detail.
+What are Maven plugins, and why are they required?
+What is the difference between a plugin and a dependency?
+Name some commonly used Maven plugins and their purposes.
+How do you execute a specific Maven plugin goal?
+How can you create a custom Maven plugin?
+Advanced Maven
+Explain multi-module Maven projects. What are their advantages?
+What is the difference between a parent POM and an aggregator POM?
+What are Maven profiles, and when would you use them?
+How do you manage different configurations for development, testing, and production using Maven?
+How does Maven integrate with CI/CD tools like Jenkins, GitHub Actions, or Azure DevOps?
+A Maven build suddenly starts failing with dependency resolution errors after working previously. How would you troubleshoot the issue?
+
+## CI/CD, Docker, Kubernetes
+Docker (10 Questions)
+What is Docker, and how is it different from a virtual machine?
+Explain the purpose of a Dockerfile and its common instructions (FROM, COPY, RUN, CMD, ENTRYPOINT).
+What is the difference between CMD and ENTRYPOINT?
+What is the difference between a Docker image and a Docker container?
+How do you optimize a Docker image for a Spring Boot application?
+What are multi-stage Docker builds, and why are they useful?
+Explain Docker volumes and bind mounts. When would you use each?
+How do Docker networks work? Explain bridge, host, and overlay networks.
+A Docker container keeps restarting. How would you troubleshoot the issue?
+What best practices do you follow while containerizing Java applications?
+Kubernetes (10 Questions)
+What is Kubernetes, and why is it used?
+Explain the architecture of a Kubernetes cluster (Control Plane and Worker Nodes).
+What is the difference between a Pod, Deployment, ReplicaSet, and StatefulSet?
+What is the purpose of a Kubernetes Service? Explain ClusterIP, NodePort, and LoadBalancer.
+What are ConfigMaps and Secrets? How do they differ?
+Explain liveness, readiness, and startup probes with examples.
+What are Ingress and Ingress Controllers?
+How does Kubernetes perform rolling updates and rollbacks?
+Your application Pod is in CrashLoopBackOff. How would you investigate and resolve it?
+How do Horizontal Pod Autoscaler (HPA) and Vertical Pod Autoscaler (VPA) work?
+CI/CD (10 Questions)
+What is CI/CD, and what are its benefits?
+Explain a typical CI/CD pipeline for a Spring Boot microservice.
+How do Jenkins, GitHub Actions, GitLab CI, and Azure DevOps differ?
+What stages would you include in a production-ready CI/CD pipeline?
+How do you automate testing in a CI/CD pipeline?
+What strategies can be used for application deployment (Blue-Green, Canary, Rolling)?
+How do you securely manage secrets in a CI/CD pipeline?
+How do you version Docker images and application artifacts?
+What would you do if a deployment succeeds but the application fails health checks?
+Describe an end-to-end deployment process from code commit to production using Git, Maven, Docker, Kubernetes, and Jenkins.
+Your Docker image size is over 1 GB. How would you reduce it?
+A Kubernetes deployment is running, but users cannot access the application. How would you debug it?
+Jenkins pipeline fails during Maven build but succeeds locally. What could be the reasons?
+One microservice cannot communicate with another inside Kubernetes. How would you troubleshoot?
+Your application works locally but crashes in Docker. How do you investigate?
+How do you perform zero-downtime deployments in Kubernetes?
+How do you roll back a failed deployment in Kubernetes?
+Your CI/CD pipeline takes 30 minutes to complete. How would you optimize it?
+How would you handle database migrations in a CI/CD pipeline?
+Describe the complete deployment process you followed in your current or previous project.
+
+## GIT
+What is Git, and how is it different from other version control systems?
+What is the difference between Git and GitHub/GitLab/Bitbucket?
+Explain the Git workflow from making changes to pushing code.
+What is the difference between a Git repository and a working directory?
+What is the purpose of the staging area (index)?
+Explain the difference between git add, git commit, and git push.
+What is the difference between git fetch and git pull?
+What is the difference between git clone and git init?
+How do you check the status of your working directory?
+How do you view the commit history of a repository?
+Branching and Merging
+What is a Git branch, and why is branching important?
+How do you create, switch, and delete branches?
+What is the difference between git merge and git rebase?
+When would you prefer rebase over merge?
+What is a merge conflict, and how do you resolve it?
+Explain the Git Flow branching strategy.
+What is GitHub Flow, and how is it different from Git Flow?
+What are fast-forward and non-fast-forward merges?
+How do you squash multiple commits into one?
+What is a pull request (PR), and what do you typically review before approving one?
+Advanced Git
+What is the difference between git reset, git revert, and git restore?
+Explain the different modes of git reset (--soft, --mixed, --hard).
+What is git stash, and when would you use it?
+How do you recover a deleted branch or lost commit?
+What is git reflog, and how is it useful?
+How do Git tags differ from branches? What are annotated and lightweight tags?
+How do you resolve conflicts during a rebase?
+What are submodules in Git, and when would you use them?
+How do you remove a file from Git history if it contains sensitive information?
+What Git best practices do you follow when working in a team?
+Scenario-Based Questions (Frequently Asked)
+
+Interviewers often ask practical questions like these:
+
+You accidentally committed directly to the main branch. What would you do?
+You committed a secret (password/API key) to the repository. How would you fix it?
+You have uncommitted changes but need to switch branches urgently. What would you do?
+A teammate force-pushed to a shared branch. How would you recover your work?
+Your local branch has diverged from the remote branch. How would you resolve it?
+You need to undo your last commit without losing the code changes. Which Git command would you use?
+Your git pull results in multiple merge conflicts. How would you resolve them?
+You accidentally deleted a branch containing important work. How would you recover it?
+During code review, you are asked to squash 10 commits into a single clean commit. How would you do it?
+Describe the Git workflow you follow from creating a feature branch until deploying the code to production.
+
+## Language Agnostic
+What are the SOLID principles? Explain each with an example.
+What is the difference between abstraction and encapsulation?
+What is the difference between composition and inheritance? When would you choose one over the other?
+What is coupling and cohesion? Why are they important?
+What are design patterns? Name a few commonly used ones.
+What is the difference between a framework and a library?
+What is technical debt? How do you manage it?
+What makes code maintainable?
+What is defensive programming?
+How do you approach code reviews?
+System Design & Architecture
+What is the difference between monolithic and microservices architectures?
+What are the advantages and disadvantages of microservices?
+What is REST, and what are the principles of RESTful APIs?
+What is the difference between synchronous and asynchronous communication?
+When would you use message queues instead of synchronous APIs?
+What is eventual consistency?
+Explain horizontal scaling vs vertical scaling.
+What is load balancing, and why is it important?
+What is caching? What are some common caching strategies?
+What factors would you consider when designing a highly available system?
+Databases
+What is the difference between SQL and NoSQL databases?
+What is database normalization, and when might you intentionally denormalize?
+What is indexing, and how does it improve query performance?
+What causes database deadlocks, and how can they be prevented?
+What is the ACID property of transactions?
+Testing & Quality
+What is the testing pyramid?
+What is the difference between unit, integration, system, and end-to-end testing?
+What makes a good automated test?
+How do you debug a production issue that you cannot reproduce locally?
+What practices do you follow to improve application performance and reliability?
+
+## Developer Workflow
+Daily Development Workflow
+Walk me through your typical day as a software developer.
+How do you approach a new feature that you've never worked on before?
+How do you estimate the effort required for a task?
+How do you break down a large feature into smaller, manageable tasks?
+What do you do before you start writing code?
+How do you ensure your code is ready before opening a pull request?
+How do you keep track of your work and priorities?
+How do you decide when a feature is "done"?
+How do you balance writing clean code with meeting deadlines?
+What does your ideal development workflow look like?
+Problem Solving & Debugging
+Tell me about a difficult bug you solved. How did you approach it?
+What is your debugging process when an issue is reported in production?
+If you cannot reproduce a reported bug, what steps do you take?
+When you get stuck on a problem, what do you do?
+How do you identify the root cause instead of just fixing the symptoms?
+How do you approach performance-related issues?
+Have you ever made a mistake that caused a production issue? What happened, and what did you learn?
+What tools do you typically use when troubleshooting an application?
+How do you verify that your fix doesn't introduce new issues?
+Describe a problem that took several days to solve. How did you stay organized?
+Collaboration & Communication
+How do you handle disagreements during code reviews?
+Describe a time you received critical feedback on your code. How did you respond?
+How do you explain technical concepts to non-technical stakeholders?
+What do you do if you're blocked waiting for another team?
+How do you help junior developers on your team?
+How do you ensure knowledge is shared within your team?
+Describe a situation where you had to collaborate with QA, DevOps, or Product to solve a problem.
+Ownership & Decision Making
+Tell me about a feature or project where you took ownership from start to finish.
+If you notice a recurring problem in your team's development process, how would you address it?
+Looking back over the last year, what engineering practice or habit has most improved your effectiveness as a developer?
+Excellent Follow-up Questions
+
+These are often the questions that separate strong candidates from average ones:
+
+Tell me about a time you disagreed with your team's technical approach. What did you do?
+Describe a production incident you were involved in. What was your role?
+What's the most difficult technical decision you've had to make?
+How do you know when to ask for help versus continuing to investigate on your own?
+How do you handle ambiguous requirements?
+Have you ever challenged a requirement from the product owner? Why?
+Describe a time when your initial solution turned out to be wrong. What happened next?
+How do you prioritize multiple urgent tasks?
+What do you do when a sprint is at risk of not meeting its goal?
+What's an example of something you automated that saved your team time?
+
 ## Distributed Computing
 What is distributed computing?
 What are the key challenges in distributed systems?
