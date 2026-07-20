@@ -737,6 +737,9 @@ How would you design the database schema for a high-traffic e-commerce applicati
 How would you model a one-to-many, many-to-many, and one-to-one relationship?
 What are the most common database anti-patterns you've encountered?
 
+## Challenges
+- Implement a HeartBeat Scheduler
+
 
 ## Behavioral
 - Who long do you wait until you ask for help?
