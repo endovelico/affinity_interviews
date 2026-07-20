@@ -139,6 +139,7 @@ If you were asked to improve an existing application, what areas would you evalu
 What do you consider the most important qualities of a senior software engineer?
 
 ## Concurrency
+ScopedValues vs ThreadLocal
 What is concurrency, and how is it different from parallelism?
 What is the difference between a process and a thread?
 What is thread safety?
