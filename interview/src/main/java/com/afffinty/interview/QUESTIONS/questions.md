@@ -76,6 +76,7 @@
   How do you go about creating modules in Java?
   Downsides of using Lombok
   JVM Pipeline: source code -> ... > loading > verification > initialization > execution
+  Things you dont like, or think arent well done in java
 
 
 ## Agnostic
