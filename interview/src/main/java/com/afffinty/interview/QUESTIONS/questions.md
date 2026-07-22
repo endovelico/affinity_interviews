@@ -1,7 +1,17 @@
 # Affinity Questions
 
 ## Java
-JDK vs JRE
+- [ ] What is Java, and what are its main features?
+- [ ] What is the difference between JDK, JRE, and JVM?
+- [ ] How does Java achieve platform independence?
+- [ ] What are the four pillars of Object-Oriented Programming (OOP)? Briefly explain each one.
+- [ ] What is the difference between == and equals() in Java?
+- [ ] What is the difference between String, StringBuilder, and StringBuffer?
+- [ ] What is the difference between an interface and an abstract class?
+- [ ] What is the difference between ArrayList and LinkedList?
+- [ ] What is exception handling in Java? What is the difference between checked and unchecked exceptions?
+- [ ] What is a HashMap, and how does it store key-value pairs?
+- [ ] JDK vs JRE
 - [ ] What is JIT compilation?
 - [ ] What is ahead of time Compilation
 - [ ] What are the key features of Java?
@@ -76,6 +86,16 @@ JDK vs JRE
 
 
 ## Agnostic
+- [ ] Tell me about your current project and your role in it.
+- [ ] How do you approach debugging a production issue?
+- [ ] How do you prioritize your tasks when working on multiple stories?
+- [ ] What makes code clean and maintainable?
+- [ ] What do you usually check before creating a Pull Request?
+- [ ] How do you estimate the effort required for a new task?
+- [ ] What is technical debt? Can you give an example?
+- [ ] What types of testing have you worked with?
+- [ ] How do you communicate a technical issue to someone without a technical background?
+- [ ] Describe a feature you developed from start to finish.
 - [ ] Tell us about your current project and your role in it.
 - [ ] Walk us through a feature you designed and implemented end-to-end.
 - [ ] Describe a technically challenging problem you solved recently.
@@ -139,6 +159,16 @@ JDK vs JRE
 - [ ] What do you consider the most important qualities of a senior software engineer?
 
 ## Concurrency
+- [ ] What is concurrency?
+- [ ] What is the difference between a process and a thread?
+- [ ] What is thread safety?
+- [ ] What is a race condition?
+- [ ] What is synchronization, and why is it needed?
+- [ ] What is a deadlock?
+- [ ] What is the difference between blocking and non-blocking operations?
+- [ ] What is a thread pool, and why is it useful?
+- [ ] What is asynchronous programming?
+- [ ] When would you use immutable objects in a concurrent application?
 - [ ] What is concurrency, and how is it different from parallelism?
 - [ ] What is the difference between a process and a thread?
 - [ ] What is thread safety?
@@ -199,6 +229,16 @@ JDK vs JRE
 
 
 ## Maven
+- [ ] What is Maven, and why is it used?
+- [ ] What is the purpose of the pom.xml file?
+- [ ] What are groupId, artifactId, and version?
+- [ ] What is the difference between mvn clean and mvn install?
+- [ ] What are Maven dependencies?
+- [ ] What is the difference between compile and test dependency scopes?
+- [ ] What is a transitive dependency?
+- [ ] What is the purpose of Maven plugins?
+- [ ] What is the local Maven repository (.m2 folder)?
+- [ ] How would you update a project after someone adds a new dependency?
 Basic to Intermediate
 - [ ] What is Maven, and what problems does it solve in Java development?
 - [ ] Explain the structure of a pom.xml file.
@@ -236,6 +276,16 @@ Basic to Intermediate
 
 ## CI/CD, Docker, Kubernetes
 Docker (10 Questions)
+- [ ] What is Docker?
+- [ ] What is the difference between a Docker image and a Docker container?
+- [ ] What is a Dockerfile?
+- [ ] What is the purpose of the FROM instruction?
+- [ ] What is the difference between CMD and ENTRYPOINT?
+- [ ] What are Docker volumes used for?
+- [ ] Why are containers preferred over virtual machines in many applications?
+- [ ] How do you build and run a Docker image?
+- [ ] How would you check why a Docker container is not starting?
+- [ ] What are some best practices for Dockerizing a Java application?
 - [ ] What is Docker, and how is it different from a virtual machine?
 - [ ] Explain the purpose of a Dockerfile and its common instructions (FROM, COPY, RUN, CMD, ENTRYPOINT).
 - [ ] What is the difference between CMD and ENTRYPOINT?
@@ -247,6 +297,16 @@ Docker (10 Questions)
 - [ ] A Docker container keeps restarting. How would you troubleshoot the issue?
 - [ ] What best practices do you follow while containerizing Java applications?
   Kubernetes (10 Questions)
+- [ ] What is Kubernetes?
+- [ ] What is a Pod?
+- [ ] What is the difference between a Pod and a Deployment?
+- [ ] What is a Kubernetes Service?
+- [ ] What is the purpose of ConfigMaps?
+- [ ] What are Kubernetes Secrets used for?
+- [ ] What is an Ingress?
+- [ ] What happens during a rolling update?
+- [ ] What does CrashLoopBackOff mean?
+- [ ] How would you check the logs of a failing Pod?
 - [ ] What is Kubernetes, and why is it used?
 - [ ] Explain the architecture of a Kubernetes cluster (Control Plane and Worker Nodes).
 - [ ] What is the difference between a Pod, Deployment, ReplicaSet, and StatefulSet?
@@ -258,6 +318,26 @@ Docker (10 Questions)
 - [ ] Your application Pod is in CrashLoopBackOff. How would you investigate and resolve it?
 - [ ] How do Horizontal Pod Autoscaler (HPA) and Vertical Pod Autoscaler (VPA) work?
   CI/CD (10 Questions)
+- [ ] What is Git?
+- [ ] What is the difference between Git and GitHub?
+- [ ] What is the purpose of the staging area?
+- [ ] What is the difference between git fetch and git pull?
+- [ ] How do you create and switch to a new branch?
+- [ ] What is a Pull Request?
+- [ ] What is a merge conflict?
+- [ ] What is the difference between git merge and git rebase?
+- [ ] What does git stash do?
+- [ ] What would you do if you accidentally committed to the main branch?
+- [ ] What does CI/CD stand for?
+- [ ] What are the benefits of Continuous Integration?
+- [ ] What is a typical CI/CD pipeline?
+- [ ] What tools have you used for CI/CD?
+- [ ] Why should automated tests be part of a pipeline?
+- [ ] What happens after a developer pushes code to Git?
+- [ ] What is the purpose of a build artifact?
+- [ ] How do you version application releases?
+- [ ] What would you do if a deployment passed but the application failed health checks?
+- [ ] What is the difference between Blue-Green and Rolling deployments?
 - [ ] What is CI/CD, and what are its benefits?
 - [ ] Explain a typical CI/CD pipeline for a Spring Boot microservice.
 - [ ] How do Jenkins, GitHub Actions, GitLab CI, and Azure DevOps differ?
@@ -328,6 +408,16 @@ You have uncommitted changes but need to switch branches urgently. What would yo
 - [ ] Describe the Git workflow you follow from creating a feature branch until deploying the code to production.
 
 ## Language Agnostic
+- [ ] What are the SOLID principles?
+- [ ] What is the difference between abstraction and encapsulation?
+- [ ] What is the difference between composition and inheritance?
+- [ ] What is coupling and cohesion?
+- [ ] What is a design pattern? Can you name a few?
+- [ ] What is the difference between a framework and a library?
+- [ ] What makes code maintainable?
+- [ ] What is a REST API?
+- [ ] What is the difference between SQL and NoSQL databases?
+- [ ] What is the difference between unit testing and integration testing?
 - [ ] What are the SOLID principles? Explain each with an example.
 - [ ] What is the difference between abstraction and encapsulation?
 - [ ] What is the difference between composition and inheritance? When would you choose one over the other?
