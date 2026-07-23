@@ -16,13 +16,10 @@
 - [ ] What is ahead of time Compilation
 - [ ] What are the key features of Java?
 - [ ] Explain the difference between JDK, JRE, and JVM.
-- [ ] How does Java achieve platform independence?
 - [ ] What is the difference between primitive data types and wrapper classes?
 - [ ] What are autoboxing and unboxing?
 - [ ] Explain pass-by-value in Java.
-- [ ] What are the four pillars of Object-Oriented Programming?
 - [ ] What is the difference between abstraction and encapsulation?
-- [ ] What is the difference between an interface and an abstract class?
 - [ ] Can an abstract class have constructors? Why?
 - [ ] Can an interface have default and static methods?
 - [ ] What is the difference between composition and inheritance?
@@ -32,7 +29,6 @@
 - [ ] What is the difference between String, StringBuilder, and StringBuffer?
 - [ ] Why is String immutable in Java?
 - [ ] What is the String Constant Pool?
-- [ ] What is the difference between == and equals()?
 - [ ] Why should hashCode() be overridden when equals() is overridden?
 - [ ] Explain the contract between equals() and hashCode().
 - [ ] How does HashMap work internally?
@@ -170,8 +166,6 @@
 - [ ] What is asynchronous programming?
 - [ ] When would you use immutable objects in a concurrent application?
 - [ ] What is concurrency, and how is it different from parallelism?
-- [ ] What is the difference between a process and a thread?
-- [ ] What is thread safety?
 - [ ] What are race conditions, and how can they be prevented?
 - [ ] What is mutual exclusion (mutex), and why is it needed?
 - [ ] What is a critical section?
@@ -277,10 +271,8 @@ Basic to Intermediate
 ## CI/CD, Docker, Kubernetes
 Docker (10 Questions)
 - [ ] What is Docker?
-- [ ] What is the difference between a Docker image and a Docker container?
 - [ ] What is a Dockerfile?
 - [ ] What is the purpose of the FROM instruction?
-- [ ] What is the difference between CMD and ENTRYPOINT?
 - [ ] What are Docker volumes used for?
 - [ ] Why are containers preferred over virtual machines in many applications?
 - [ ] How do you build and run a Docker image?
@@ -575,6 +567,7 @@ These are often the questions that separate strong candidates from average ones:
 
 
 ## Open Ended Questinos
+- [ ] How do you deal with requirment analysis in a task?
 
 ## Spring
 - [ ] What is the Spring Framework, and what problems does it solve?
