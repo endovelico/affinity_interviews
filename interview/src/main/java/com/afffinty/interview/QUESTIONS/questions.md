@@ -1,10 +1,10 @@
 # Affinity Questions
 
 ## Java
-- JDK vs JRE
-- What is JIT compilation?
-- What is ahead of time Compilation
-  What are the key features of Java?
+- [ ] JDK vs JRE
+- [ ] What is JIT compilation?
+- [ ] What is ahead of time Compilation
+- [ ] What are the key features of Java?
   Explain the difference between JDK, JRE, and JVM.
   How does Java achieve platform independence?
   What is the difference between primitive data types and wrapper classes?
@@ -73,10 +73,6 @@
   What is serialVersionUID, and why is it important?
   Explain compile-time polymorphism and runtime polymorphism.
   How would you implement a thread-safe Singleton in Java?
-  How do you go about creating modules in Java?
-  Downsides of using Lombok
-  JVM Pipeline: source code -> ... > loading > verification > initialization > execution
-  Things you dont like, or think arent well done in java
 
 
 ## Agnostic
@@ -143,7 +139,6 @@ If you were asked to improve an existing application, what areas would you evalu
 What do you consider the most important qualities of a senior software engineer?
 
 ## Concurrency
-ScopedValues vs ThreadLocal
 What is concurrency, and how is it different from parallelism?
 What is the difference between a process and a thread?
 What is thread safety?
@@ -740,9 +735,6 @@ How would you design the database schema for a high-traffic e-commerce applicati
 How would you model a one-to-many, many-to-many, and one-to-one relationship?
 What are the most common database anti-patterns you've encountered?
 
-## Challenges
-- Implement a HeartBeat Scheduler
-
 
 ## Behavioral
 - Who long do you wait until you ask for help?
@@ -763,3 +755,6 @@ What are the most common database anti-patterns you've encountered?
 - [ ] ClassDef vs NoClassDef
 - [ ] Quantos valores possiveis para 1 char, e 1 string?
 - [ ] Where can Strings live in Java?
+- [ ] Cons keyword
+- [ ] Tell me about the Java 26 features
+- [ ] Instant vs Timestamp vs LocalDateTime
