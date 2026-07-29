@@ -838,3 +838,7 @@ These are often the questions that separate strong candidates from average ones:
 - [ ] ClassDef vs NoClassDef
 - [ ] Quantos valores possiveis para 1 char, e 1 string?
 - [ ] Where can Strings live in Java?
+- [ ] Tell me about the cons keyword?
+- [ ] Tell me about the feaures in java 26?
+- [ ] Instant vs LocalDateTimevs Timestamp
+- [ ] What are the Coffman conditions
