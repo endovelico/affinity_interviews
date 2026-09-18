@@ -755,3 +755,13 @@ What are the most common database anti-patterns you've encountered?
 - [ ] ClassDef vs NoClassDef
 - [ ] Quantos valores possiveis para 1 char, e 1 string?
 - [ ] Where can Strings live in Java?
+
+## ADITIONAL UNSORTED
+- [ ] Do you consider yourself a code expert? (leetcode proposition) 
+- [ ] Pick a type of Security attack / compromise and explain it.
+- [ ] How would you rebuild a PC from a Dr Stone cenario
+- [ ] What is MapReduce
+- [ ] When should we ack a Kafka Message?
+- [ ] What type of cachings do you know?
+- [ ] Explain to RH a design Pattern?
+- [ ] What questions would you ask in Discovery?
