@@ -4,3 +4,4 @@
 - what is spring.factories for?
 - patterns and anti patterns for auto configuration 
 - What are the 3 BeanDefinitions that exist? (or conversely Roles)
+- http error families
