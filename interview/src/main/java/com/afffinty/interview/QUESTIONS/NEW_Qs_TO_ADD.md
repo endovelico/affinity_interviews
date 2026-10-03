@@ -1,0 +1,4 @@
+- Biggest Bug and how did you solvei t?
+- Biggest problem you faced?
+- spring.factories
+- AutoConfiguration
