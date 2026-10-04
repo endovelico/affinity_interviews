@@ -7,3 +7,4 @@
 - best practices k8s
 - Mechanisms to cache at the REST endpoint in spring
 - What is springs default transactional method
+- What consistency models do you know?
