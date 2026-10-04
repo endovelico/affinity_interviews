@@ -10,3 +10,6 @@
 - What consistency models do you know?
 - OLTP vs OLAP
 - HTTP code families
+- What is HATEOAS, explain the levels and have them discuss,
+- Docker Image vs Container
+- Docker process of creating the image > container
