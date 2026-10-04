@@ -5,3 +5,4 @@
 - What do we need to execute a spring boot application?
 - best practices docker
 - best practices k8s
+- Mechanisms to cache at the REST endpoint in spring
