@@ -13,3 +13,4 @@
 - What is HATEOAS, explain the levels and have them discuss,
 - Docker Image vs Container
 - Docker process of creating the image > container
+- What is a k8s pod?
