@@ -2,3 +2,6 @@
 - Biggest problem you faced?
 - spring.factories
 - AutoConfiguration
+- What do we need to execute a spring boot application?
+- best practices docker
+- best practices k8s
