@@ -14,3 +14,4 @@
 - Docker Image vs Container
 - Docker process of creating the image > container
 - What is a k8s pod?
+- Microservices Anti Patterns
